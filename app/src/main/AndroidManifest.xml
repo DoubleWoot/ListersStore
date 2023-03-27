@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dwit_listers"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ListersStore"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Peripherals" />
+        <activity android:name=".KeyboardItems" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".Components" />
+        <activity android:name=".CPUItems" />
+        <activity android:name=".MBoardItems" />
+        <activity android:name=".PSuppItems" />
+        <activity android:name=".GPUItems" />
+        <activity android:name=".CaseItems" />
+        <activity android:name=".RAMItems" />
+        <activity android:name=".LoginSignupActivity" />
+        <activity android:name=".PaymentConfirmation" />
+        <activity android:name=".CreateAccActivity" />
+        <activity android:name=".MouseItems" />
+        <activity android:name=".HeadphonesItems" />
+        <activity android:name=".MousepadItems" />
+        <activity android:name=".EarphonesItems" />
+        <activity android:name=".MonitorItems" />
+    </application>
+
+</manifest>
